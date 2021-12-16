@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form>
+    <p>
+      <label for="title">Title</label>
+      <input type="text" name="title" id="title">
+    </p>
+    <p>
+      <label for="link">YouTube Link</label>
+      <input type="text" name="link" id="link">
+    </p>
+    <p>
+      <label for="description">Description</label>
+      <textarea name="description" id="description" cols="30" rows="10"></textarea>
+    </p>
+    <p>
+      <button id="createSong">Add Song To Playlist</button>
+    </p>
+  </form>
+  <div id="songs"></div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
